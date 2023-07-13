@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
             for (i in 0..99) listOfNumbers.add(i)
 
             res=listOfNumbers.toString().plus("\n")
-            val listOfEvenNumbers = listOfNumbers.filter { it%2==0 }
+            val listOfEvenNumbers = listOfNumbers.filter { it%3==0 }
             res = res.plus(listOfEvenNumbers.toString())
             txt1.text = res.toString()
         }
