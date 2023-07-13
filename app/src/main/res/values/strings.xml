@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application5</string>
+    <string name="results">results will be here</string>
+    <string name="some_text">some text</string>
+    <string name="text_here">some text</string>
+    <string name="calculate">calculate</string>
+</resources>
